@@ -1,0 +1,57 @@
+<!-- Reporte 2 -->
+
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <style>
+            {#asset reporte2-styles.css @encoding=utf8}
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                {{!-- <img src="{{cLogo}}" /> --}}
+                <img src="{{cLogo}}" />
+            </div>
+            <div class="titulo-reporte">
+                <h1> {{cTitulo}} </h1>
+                <h2> {{cTituloFiltro}} </h2>
+                <p> {{cDireccion}} </p>
+            </div>
+            <div>
+                <!--  -->
+            </div>
+        </header>
+
+        <main>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Nombre Empresa</th>
+                        <th>RFC/Taxid</th>
+                        <th>Origen</th>
+                        <th>Domicilio</th>
+                        <th>Teléfono</th>
+                        <th>Correo</th>
+                        <th>Sitio web</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each items}}
+                    <tr>
+                        <td>{{ cTipo }}</td>
+                        <td>{{ cNombreEmpresa }}</td>
+                        <td>{{ cRfcTaxid }}</td>
+                        <td>{{ cOrigen }}</td>
+                        <td>{{ cDomicilio }}</td>
+                        <td>{{ cTelefono }}</td>
+                        <td>{{ cCorreo }}</td>
+                        <td>{{ cSitioWeb }}</td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>

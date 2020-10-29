@@ -1,0 +1,33 @@
+{
+    "shortid": "lV6QgfRIQr",
+    "name": "reporte4-main",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": false,
+        "displayHeaderFooter": true,
+        "marginTop": "1cm",
+        "marginRight": "1cm",
+        "marginBottom": "1cm",
+        "marginLeft": "1cm"
+    },
+    "creationDate": {
+        "$$date": 1603307771636
+    },
+    "modificationDate": {
+        "$$date": 1604003147915
+    },
+    "_id": "mYbjbTsRALWxo1Sq",
+    "$entitySet": "templates",
+    "data": {
+        "shortid": "6n_zwMuqEj"
+    },
+    "pdfOperations": [],
+    "pdfMeta": {
+        "title": "Reporte de socios y productos"
+    },
+    "resources": {
+        "defaultLanguage": "es",
+        "items": []
+    }
+}

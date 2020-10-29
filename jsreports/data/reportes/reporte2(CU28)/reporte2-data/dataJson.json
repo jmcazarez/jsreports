@@ -1,0 +1,49 @@
+{
+    "cTitulo": "Listado de socios por filtros",
+    "cLogo": "https://www.allianzhost.com/wp-content/themes/arkahost/assets/images/default.jpg",
+    "cTituloFiltro":"Información de certificaciones y compradores",
+    "cDireccion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in nibh nec diam aliquam fringilla vel sit amet ligula.",
+    
+    "items": [
+        {
+            "cTipo": "Comprador",
+            "cNombreEmpresa": "Triple H",
+            "cRfcTaxid": "ERS01923",
+            "cOrigen": "Nacional",
+            "cDomicilio": "Conocido",
+            "cTelefono": "0987654321",
+            "cCorreo": "demo@demo.com",
+            "cSitioWeb": "www.demo.com"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cSitioWeb": "cSitioWebm"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cSitioWeb": "cSitioWebm"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cSitioWeb": "cSitioWebm"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "shortid": "VWI_6h0lVY",
+    "name": "reporte1-xlsx",
+    "recipe": "xlsx",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1603936032189
+    },
+    "modificationDate": {
+        "$$date": 1603944258819
+    },
+    "_id": "tB9fx3nTlyp6QPfY",
+    "$entitySet": "templates",
+    "data": {
+        "shortid": "aceSlqr_T5"
+    },
+    "xlsxTemplate": null,
+    "xlsx": {
+        "templateAssetShortid": "VRR3hrq"
+    }
+}

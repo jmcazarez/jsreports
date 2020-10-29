@@ -1,0 +1,32 @@
+{
+    "shortid": "hwy4iGF4tj",
+    "name": "reporte2-main",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true,
+        "displayHeaderFooter": true,
+        "marginTop": "1cm",
+        "marginRight": "1cm",
+        "marginLeft": "1cm",
+        "marginBottom": "1cm"
+    },
+    "creationDate": {
+        "$$date": 1603746859672
+    },
+    "modificationDate": {
+        "$$date": 1603935898908
+    },
+    "_id": "URzjobOunqddQxCC",
+    "$entitySet": "templates",
+    "data": {
+        "shortid": "ip3pihUvNt"
+    },
+    "resources": {
+        "defaultLanguage": "es",
+        "items": []
+    },
+    "pdfMeta": {
+        "title": "Listado de socios por filtros"
+    }
+}

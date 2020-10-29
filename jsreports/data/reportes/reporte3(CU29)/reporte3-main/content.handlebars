@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <style>
+            {#asset reporte3-styles.css @encoding=utf8}
+        </style>
+    </head>
+    <body>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th rowspan="3" class="logo">
+                        <img src="{{cLogo}}" />
+                    </th>
+                    <th colspan="6" class="titulo-reporte">
+                        <h1> {{cTitulo}} </h1>
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="6" class="info-reporte">
+                        <h2>  Información actualizada al día {{cFechaAcsualizacion}} </h2>
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="6" class="direccion-reporte">
+                        {{cDireccion}}
+                    </th>
+                </tr>
+
+                <tr>
+                    <td colspan="7">
+                        &nbsp;
+                    </td>
+                </tr>
+
+                 <tr class="titulos-tabla">
+                    <th>Tipo</th>
+                    <th>Nombre Empresa</th>
+                    <th>RFC/Taxid</th>
+                    <th>Origen</th>
+                    <th>Domicilio</th>
+                    <th>Teléfono</th>
+                    <th>Correo</th>
+                    <th>Numero de Consultas</th>
+                </tr>
+
+
+            </thead>
+
+            <tbody>
+                {{#each items}}
+                <tr>
+                    <td>{{ cTipo }}</td>
+                    <td>{{ cNombreEmpresa }}</td>
+                    <td>{{ cRfcTaxid }}</td>
+                    <td>{{ cOrigen }}</td>
+                    <td>{{ cDomicilio }}</td>
+                    <td>{{ cTelefono }}</td>
+                    <td>{{ cCorreo }}</td>
+                    <td>{{ cNumeroConsultas }}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+
+        </table>
+    </body>
+</html>

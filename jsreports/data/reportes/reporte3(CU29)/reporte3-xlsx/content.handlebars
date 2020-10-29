@@ -1,0 +1,29 @@
+{{#xlsxAddImage "test" "sheet1.xml" 3 0 5 4}}
+    {#asset jsreport.png @encoding=base64}
+{{/xlsxAddImage}}
+
+{{#xlsxAddImage "test" "sheet1.xml" 3 4 5 9}}
+
+    <img 
+        src="jsreport.png"
+    />
+{{/xlsxAddImage}}
+
+
+{{#xlsxAddImage "test" "sheet1.xml" 6 1 8 4}}
+    <img 
+        src="{#image  {{cLogo}} }"
+    />
+{{/xlsxAddImage}}
+
+
+{{#each items}}
+{{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row"}}
+<row>
+    <c t="inlineStr"><is><t>{{cTipo}}</t></is></c>
+    <c t="inlineStr"><is><t>{{cNombreEmpresa}}</t></is></c>
+</row>
+{{/xlsxAdd}}
+{{/each}}
+
+{{{xlsxPrint}}}

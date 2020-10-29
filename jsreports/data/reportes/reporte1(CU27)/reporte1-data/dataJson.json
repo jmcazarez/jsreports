@@ -1,0 +1,260 @@
+{
+    "cTitulo": "Listado de socios suscriptores",
+    "cLogo": "https://www.allianzhost.com/wp-content/themes/arkahost/assets/images/default.jpg",
+    "cDireccion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in nibh nec diam aliquam fringilla vel sit amet ligula.",
+    "cFechaAcsualizacion": "27/10/2020",
+    
+    "items": [
+        {
+            "cTipo": "Comprador",
+            "cNombreEmpresa": "Triple H",
+            "cRfcTaxid": "ERS01923",
+            "cOrigen": "Nacional",
+            "cDomicilio": "Conocido",
+            "cTelefono": "0987654321",
+            "cCorreo": "demo@demo.com",
+            "cNumeroConsultas": "123"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        },
+        {
+            "cTipo": "cTipo",
+            "cNombreEmpresa": "cNombreEmpresa",
+            "cRfcTaxid": "cRfcTaxid",
+            "cOrigen": "cOrigen",
+            "cDomicilio": "cDomicilio",
+            "cTelefono": "cTelefono",
+            "cCorreo": "cCorreo",
+            "cNumeroConsultas": "cNumeroConsultas"
+        }
+    ],
+    "cTotalConsultas": 12313
+}

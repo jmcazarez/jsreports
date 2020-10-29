@@ -1,0 +1,33 @@
+/* Table Header */
+table.table {
+    width: 100%;
+}
+
+table.table thead .logo img{
+    width: 80px;
+    height: 120px;
+    object-fit: contain;
+    object-position: center;
+}
+table.table thead h1, .titulo-reporte{
+    font-size: 24px;
+    line-height: 2;
+    background-color: #69A84F;
+    white-space: normal;
+}
+table.table thead h2, .info-reporte{
+    font-size: 16px;
+    line-height: 1;
+}
+table.table thead p, .direccion-reporte{
+    font-size: 10px;
+    word-break: normal;
+    font-weight: 300;
+    min-height: 40px
+}
+table.table tbody td:last-of-type{
+    text-align: center;
+}
+
+/* End - Table Header */
+

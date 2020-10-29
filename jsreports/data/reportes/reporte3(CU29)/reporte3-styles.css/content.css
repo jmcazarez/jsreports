@@ -1,0 +1,97 @@
+/* Table Header */
+table.table {
+    width: 100%;
+}
+
+table.table thead .logo img{
+    width: 80px;
+    height: 120px;
+    object-fit: contain;
+    object-position: center;
+}
+table.table thead h1, .titulo-reporte{
+    font-size: 24px;
+    line-height: 2;
+    background-color: #69A84F;
+    white-space: normal;
+}
+table.table thead h2, .info-reporte{
+    font-size: 16px;
+    line-height: 1;
+}
+table.table thead p, .direccion-reporte{
+    font-size: 10px;
+    word-break: normal;
+    font-weight: 300;
+    min-height: 40px
+}
+table.table tbody td:last-of-type{
+    text-align: center;
+}
+
+/* End - Table Header */
+
+
+
+
+/* Header */
+
+header {
+    display: flex;
+    margin-bottom: 40px;
+}
+header div {
+    flex: 1;
+}
+header div.logo{
+    flex-grow: 1;
+}
+header div.logo img{
+    width: 90%;
+    height: 120px;
+    object-fit: contain;
+    object-position: center;
+}
+header div.titulo-reporte {
+    flex-grow: 3;
+    text-align: center;
+}
+header div.titulo-reporte h1{
+    font-size: 28px;
+    line-height: 2;
+    background-color: #69A84F;
+}
+header div.titulo-reporte h2{
+    font-size: 18px;
+    line-height: 1;
+}
+header div.titulo-reporte p{
+    padding: 0px 30px
+}
+
+/* End - Header */
+
+/* Main */
+main {
+    width: 100%;
+}
+main table {
+    width: 100%;
+    border-collapse: collapse;
+    /* table-layout: fixed */
+}
+main table td, main table th {
+    border: 1px solid #B5B5B5;
+    line-height: 1.8;
+}
+main table thead th, main table tfoot th{
+    font-size: 14px;
+    background-color: #F2F1F0;
+}
+main table tbody td{
+    font-size: 12px;
+}
+main table tbody td:last-of-type{
+    text-align: center;
+}
+/* End - Main */

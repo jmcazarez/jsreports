@@ -1,0 +1,23 @@
+{
+    "shortid": "uN8Ev9lCSr",
+    "name": "reporte1-main",
+    "recipe": "html-to-xlsx",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "htmlToXlsx": {
+        "htmlEngine": "chrome"
+    },
+    "creationDate": {
+        "$$date": 1603851718072
+    },
+    "modificationDate": {
+        "$$date": 1603995073696
+    },
+    "_id": "OOh8OwPt92aFSabM",
+    "$entitySet": "templates",
+    "data": {
+        "shortid": "aceSlqr_T5"
+    }
+}

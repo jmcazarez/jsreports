@@ -1,0 +1,23 @@
+version: '3'
+services:
+    jsreports1:
+        build: ./jsreports
+        container_name: jsreports1
+        ports:
+            - "5488:5488"
+        volumes:
+            - ./jsreports/data:/app/data
+        networks:
+            - bluebook_bluebook-net
+    jsreports2:
+        build: ./jsreports
+        container_name: jsreports2
+        ports:
+            - "5489:5488"
+        volumes:
+            - ./jsreports/data2:/app/data
+        networks:
+            - bluebook_bluebook-net
+networks:
+    bluebook_bluebook-net:
+        external: true 

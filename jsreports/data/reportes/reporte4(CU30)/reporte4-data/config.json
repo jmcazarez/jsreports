@@ -1,0 +1,15 @@
+{
+    "shortid": "6n_zwMuqEj",
+    "name": "reporte4-data",
+    "creationDate": {
+        "$$date": 1603382187311
+    },
+    "modificationDate": {
+        "$$date": 1603935266660
+    },
+    "_id": "oMHNgCy2TLgoKWgW",
+    "$entitySet": "data",
+    "entitySet": "data",
+    "type": "entity",
+    "key": "oMHNgCy2TLgoKWgW"
+}
