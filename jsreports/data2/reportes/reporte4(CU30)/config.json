@@ -1,0 +1,21 @@
+{
+    "@odata.context": "http://192.168.10.155:5489/odata/$metadata#folders/$entity",
+    "@odata.editLink": "http://192.168.10.155:5489/odata/folders('oDQxAVdEV8m4iDPa')",
+    "@odata.id": "http://192.168.10.155:5489/odata/folders('oDQxAVdEV8m4iDPa')",
+    "name": "reporte4(CU30)",
+    "creationDate": {
+        "$$date": 1604024704776
+    },
+    "modificationDate": {
+        "$$date": 1604024777240
+    },
+    "__entitySet": "folders",
+    "__name": "prueba",
+    "__shortid": "tFoIdJF",
+    "__folder": {
+        "shortid": "I_7hM4u"
+    },
+    "shortid": "krdoER6",
+    "_id": "cLpsazJc59m0RvT9",
+    "$entitySet": "folders"
+}

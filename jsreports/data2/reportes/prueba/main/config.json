@@ -1,0 +1,32 @@
+{
+    "shortid": "c6p5kFfHo4",
+    "name": "main",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true,
+        "marginTop": "1cm",
+        "marginBottom": "1.5cm",
+        "marginLeft": "1cm",
+        "marginRight": "1cm"
+    },
+    "pdfOperations": [
+        {
+            "type": "merge",
+            "templateShortid": "GCZ8fFyrql",
+            "mergeWholeDocument": true,
+            "renderForEveryPage": false
+        }
+    ],
+    "creationDate": {
+        "$$date": 1604019566310
+    },
+    "modificationDate": {
+        "$$date": 1604024469616
+    },
+    "_id": "QfhtuO3gDtAQsFYU",
+    "$entitySet": "templates",
+    "data": {
+        "shortid": "UGvmoVAp5U"
+    }
+}

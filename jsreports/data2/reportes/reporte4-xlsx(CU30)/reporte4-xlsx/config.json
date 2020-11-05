@@ -1,0 +1,24 @@
+{
+    "shortid": "ZKm-ZvmBNk",
+    "name": "reporte4-xlsx",
+    "recipe": "xlsx",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1604085110811
+    },
+    "modificationDate": {
+        "$$date": 1604518293423
+    },
+    "_id": "h2WIbpCpA54xN57w",
+    "$entitySet": "templates",
+    "data": {
+        "shortid": "Mw7i7rJ"
+    },
+    "xlsx": {
+        "templateAssetShortid": "7_vEnP4"
+    },
+    "scripts": []
+}

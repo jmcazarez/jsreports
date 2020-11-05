@@ -1,68 +1,130 @@
-<html>
-    <head>
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <style>
-            {#asset reporte1-styles.css @encoding=utf8}
-        </style>
-    </head>
-    <body>
-        <table class="table">
-            <thead>
-                <tr>
-                    
-                    <th rowspan="3" class="logo">
-                        <img src="{{cLogo}}" />
-                    </th>
-                    <th colspan="6" class="titulo-reporte">
-                        <h1> {{cTitulo}} </h1>
-                    </th>
-                </tr>
-                <tr>
-                    <th colspan="6" class="info-reporte">
-                        <h2>  Información actualizada al día {{cFechaAcsualizacion}} </h2>
-                    </th>
-                </tr>
-                <tr>
-                    <th colspan="6" class="direccion-reporte">
-                        {{cDireccion}}
-                    </th>
-                </tr>
-
-                <tr>
-                    <td colspan="7">
-                        &nbsp;
-                    </td>
-                </tr>
-
-                 <tr class="titulos-tabla">
-                    <th>Tipo</th>
-                    <th>Nombre Empresa</th>
-                    <th>RFC/Taxid</th>
-                    <th>Origen</th>
-                    <th>Domicilio</th>
-                    <th>Teléfono</th>
-                    <th>Correo</th>
-                    <th>Numero de Consultas</th>
-                </tr>
+{{!-- Reporte 1 Excel--}}
+{{!-- 
+{{#xlsxReplace "xl/styles.xml"}}
+    {#asset styles.xml}}
+{{/xlsxReplace}} 
+-- }}
 
 
-            </thead>
+{{!-- Combinar celdas --}}
+{{#xlsxReplace "xl/worksheets/sheet1.xml" "worksheet.mergeCells"}}
+    <mergeCells>
+        <mergeCell ref="B1:B3"/>
+        <mergeCell ref="C1:H1"/>
+        <mergeCell ref="C2:H2"/>
+        <mergeCell ref="C3:H3"/>
+    </mergeCells>
+{{/xlsxReplace}}
 
-            {{!-- <tbody>
-                {{#each items}}
-                <tr>
-                    <td>{{ cTipo }}</td>
-                    <td>{{ cNombreEmpresa }}</td>
-                    <td>{{ cRfcTaxid }}</td>
-                    <td>{{ cOrigen }}</td>
-                    <td>{{ cDomicilio }}</td>
-                    <td>{{ cTelefono }}</td>
-                    <td>{{ cCorreo }}</td>
-                    <td>{{ cNumeroConsultas }}</td>
-                </tr>
-                {{/each}}
-            </tbody> --}}
+{{#xlsxReplace "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row[1]"}}
+    <row>
+        <c r="C2" t="inlineStr"><is><t>Información actualizada al día {{now}} </t></is></c>
+    </row>
+{{/xlsxReplace}}
 
-        </table>
-    </body>
-</html>
+{{#xlsxReplace "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row[2]"}}
+    <row>
+        <c r="C3" t="inlineStr"><is><t>{{cDireccion}} </t></is></c>
+    </row>
+{{/xlsxReplace}}
+
+{{#xlsxReplace "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row[3]"}}
+    <row>
+        <c r="C4" t="inlineStr"><is><t>{{cEmail}} </t></is></c>
+    </row>
+{{/xlsxReplace}}
+
+{{!-- Items Mienbro --}}
+{{#each data.membresias}}
+
+    {{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row"}}
+        <row>
+            <c t="inlineStr"><is><t>{{tipoMembresia}}</t></is></c>
+        </row>
+    {{/xlsxAdd}} 
+
+    {{#each usuariosMembresia}}
+
+        {{!-- Tipo miembro --}}
+        {{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row"}}
+            <row>
+                <c></c>
+                <c t="inlineStr"><is><t>Tipo de miembro</t></is></c>
+            </row>
+        {{/xlsxAdd}}
+
+        {{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row"}}
+            <row>
+                <c></c>
+                <c t="inlineStr"><is><t>{{tipoUsuario}}</t></is></c>
+                <c t="inlineStr"><is><t>Nombre</t></is></c>
+                <c t="inlineStr"><is><t>Fecha de inscripción</t></is></c>
+                <c t="inlineStr"><is><t>Pago</t></is></c>
+                <c t="inlineStr"><is><t>Duración de la membresía</t></is></c>
+                <c t="inlineStr"><is><t>Fecha de vencimiento</t></is></c>
+                <c t="inlineStr"><is><t>días a vencer</t></is></c>
+                <c t="inlineStr"><is><t>número de factura</t></is></c>
+            </row>
+        {{/xlsxAdd}}
+
+        {{#each usuarios}}
+            {{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row"}}
+                <row>
+                    <c></c>
+                    <c></c>
+                    <c t="inlineStr"><is><t>{{ this.cNombre }}</t></is></c>
+                    <c t="inlineStr"><is><t>{{ this.dFechaInscripcion }}</t></is></c>
+                    <c t="inlineStr"><is><t>{{ this.nPago }}</t></is></c>
+                    <c t="inlineStr"><is><t>{{ this.nDuracionMembresia }}</t></is></c>
+                    <c t="inlineStr"><is><t>{{ this.dFechaVencimiento }}</t></is></c>
+                    <c t="inlineStr"><is><t>{{ this.nDiasVencimiento }}</t></is></c>
+                    <c t="inlineStr"><is><t>{{ this.cFactura }}</t></is></c>
+                </row>
+            {{/xlsxAdd}}
+        {{/each}}
+
+        {{!-- Vacio  --}}
+        {{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row"}}
+            <row> </row>
+        {{/xlsxAdd}}
+        
+        {{!-- Total  Tipo de Miembro--}}
+        {{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row"}}
+            <row>
+                <c></c>
+                <c t="inlineStr"><is><t>Total</t></is></c>
+                <c t="inlineStr"><is><t>{{totalUsuarios}}</t></is></c>
+                <c></c>
+                <c t="inlineStr"><is><t>$ {{totalImporte}}</t></is></c>
+            </row>
+        {{/xlsxAdd}}
+
+        {{!-- Vacio  --}}
+        {{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row"}}
+            <row> </row>
+        {{/xlsxAdd}}
+
+    {{/each}}
+{{/each}}
+
+{{!-- End - Items Mienbro --}}
+
+
+{{!-- Vacio  --}}
+{{!-- {{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row"}}
+<row> </row>
+{{/xlsxAdd}} --}}
+
+{{!-- Total  General--}}
+{{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row"}}
+<row>
+    <c></c>
+    <c t="inlineStr"><is><t>Total general</t></is></c>
+    <c t="inlineStr"><is><t>{{data.totalUsuarios}}</t></is></c>
+    <c></c>
+    <c t="inlineStr"><is><t>$ {{data.totalImporte}}</t></is></c>
+</row>
+{{/xlsxAdd}}
+
+
+{{{xlsxPrint}}}

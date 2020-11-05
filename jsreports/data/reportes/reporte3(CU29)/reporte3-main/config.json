@@ -1,35 +1,26 @@
 {
-    "shortid": "94h27Qb1yQ",
+    "shortid": "ePSgHETwc4",
     "name": "reporte3-main",
-    "recipe": "html-to-xlsx",
+    "recipe": "xlsx",
     "engine": "handlebars",
     "chrome": {
-        "printBackground": true,
-        "width": "",
-        "marginTop": "1cm",
-        "marginRight": "1cm",
-        "marginBottom": "1cm",
-        "marginLeft": "1cm",
-        "displayHeaderFooter": true,
-        "waitForNetworkIddle": false
+        "printBackground": true
     },
-    "creationDate": {
-        "$$date": 1603802123829
-    },
-    "modificationDate": {
-        "$$date": 1603934221817
-    },
-    "_id": "9I6ltXdApCr03vdB",
-    "$entitySet": "templates",
     "data": {
         "shortid": "3iU9DLgYkv"
     },
-    "pdfMeta": {
-        "title": "Listado de Empresas más consultadas"
+    "creationDate": {
+        "$$date": 1603914674997
     },
-    "htmlToXlsx": {
-        "htmlEngine": "chrome",
-        "templateAssetShortid": null
+    "modificationDate": {
+        "$$date": 1604607731699
     },
-    "scripts": []
+    "_id": "VsiZHNlhcEvhxQqD",
+    "$entitySet": "templates",
+    "xlsx": {
+        "templateAssetShortid": "~8DmWuC"
+    },
+    "resources": {
+        "items": []
+    }
 }

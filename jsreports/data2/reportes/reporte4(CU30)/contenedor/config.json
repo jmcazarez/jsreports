@@ -1,0 +1,21 @@
+{
+    "name": "contenedor",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true,
+        "marginLeft": "1cm",
+        "marginBottom": "0",
+        "marginRight": "1cm",
+        "marginTop": "0"
+    },
+    "creationDate": {
+        "$$date": 1604024705058
+    },
+    "modificationDate": {
+        "$$date": 1604024705058
+    },
+    "shortid": "V6TTMMi",
+    "_id": "sxDEBTlvVz4dbRpK",
+    "$entitySet": "templates"
+}

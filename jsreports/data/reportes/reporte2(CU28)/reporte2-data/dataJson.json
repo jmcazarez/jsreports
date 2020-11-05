@@ -1,49 +1,51 @@
 {
     "cTitulo": "Listado de socios por filtros",
-    "cLogo": "https://www.allianzhost.com/wp-content/themes/arkahost/assets/images/default.jpg",
-    "cTituloFiltro":"Información de certificaciones y compradores",
-    "cDireccion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in nibh nec diam aliquam fringilla vel sit amet ligula.",
-    
-    "items": [
+    "cDireccion": "cDireccion Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in nibh nec diam aliquam fringilla vel sit amet ligula.",
+    "cEmail": "bluebook@iagrinet.com",
+    "cLogo": "",
+    "cTextoReporte": "texto",    
+    "socios": [
         {
-            "cTipo": "Comprador",
-            "cNombreEmpresa": "Triple H",
-            "cRfcTaxid": "ERS01923",
-            "cOrigen": "Nacional",
-            "cDomicilio": "Conocido",
-            "cTelefono": "0987654321",
-            "cCorreo": "demo@demo.com",
-            "cSitioWeb": "www.demo.com"
+            "nIdUsuario":7,
+            "nTipo":1,
+            "cTipo":"Productor-Comercializador",
+            "cEmpresa":"Prueba Sa de Cv",
+            "cRegistroIdentificador":"123456789",
+            "nTipoEmpresa":2,
+            "cTipoEmpresa":"Internacional",
+            "cDireccionSucursalMatriz":"culiacan sinaloa #600",
+            "cTelefonoOficinaMatriz":"6677889911",
+            "cEmail":"calidad@adsum.com.mx",
+            "cURLPaginaWebEmpresa":"IMELDA.COM.MX",
+            "nPuntaje":2
         },
         {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cSitioWeb": "cSitioWebm"
+            "nIdUsuario":30,
+            "nTipo":1,
+            "cTipo":"Productor-Comercializador",
+            "cEmpresa":"La Esquinita",
+            "cRegistroIdentificador":"TCVA150389RCQ",
+            "nTipoEmpresa":1,
+            "cTipoEmpresa":"Nacional",
+            "cDireccionSucursalMatriz":"REy V #4291",
+            "cTelefonoOficinaMatriz":"6677290786",
+            "cEmail":"desarrolladorweb1@adsum.com.mx",
+            "cURLPaginaWebEmpresa":"empresa.com.mx",
+            "nPuntaje":0
         },
         {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cSitioWeb": "cSitioWebm"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cSitioWeb": "cSitioWebm"
+            "nIdUsuario":23,
+            "nTipo":1,
+            "cTipo":"Productor-Comercializador",
+            "cEmpresa":"Agrícola Bugambilias",
+            "cRegistroIdentificador":"AGBG393939395",
+            "nTipoEmpresa":1,
+            "cTipoEmpresa":"Nacional",
+            "cDireccionSucursalMatriz":"Culiacán",
+            "cTelefonoOficinaMatriz":"6678987988",
+            "cEmail":"desarrolladorweb2@adsum.com.mx",
+            "cURLPaginaWebEmpresa":"empresa.com",
+            "nPuntaje":1
         }
     ]
 }

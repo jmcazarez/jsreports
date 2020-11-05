@@ -1,0 +1,21 @@
+{
+    "shortid": "GCZ8fFyrql",
+    "name": "contenedor",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true,
+        "marginLeft": "1cm",
+        "marginBottom": "0",
+        "marginRight": "1cm",
+        "marginTop": "0"
+    },
+    "creationDate": {
+        "$$date": 1604019295381
+    },
+    "modificationDate": {
+        "$$date": 1604024524081
+    },
+    "_id": "0fOONqgOblB3EoXK",
+    "$entitySet": "templates"
+}

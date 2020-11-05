@@ -1,0 +1,32 @@
+{
+    "name": "reporte4-main",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true,
+        "marginTop": "1cm",
+        "marginBottom": "1.5cm",
+        "marginLeft": "1cm",
+        "marginRight": "1cm"
+    },
+    "pdfOperations": [
+        {
+            "type": "merge",
+            "templateShortid": "V6TTMMi",
+            "mergeWholeDocument": true,
+            "renderForEveryPage": false
+        }
+    ],
+    "creationDate": {
+        "$$date": 1604024705066
+    },
+    "modificationDate": {
+        "$$date": 1604518220180
+    },
+    "data": {
+        "shortid": "Mw7i7rJ"
+    },
+    "shortid": "wuqkJc7",
+    "_id": "J5PAyUJb2Ey6dVyQ",
+    "$entitySet": "templates"
+}

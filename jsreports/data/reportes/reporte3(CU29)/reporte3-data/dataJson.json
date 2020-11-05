@@ -1,260 +1,56 @@
 {
-    "cTitulo": "Listado de Empresas más consultadas",
-    "cLogo": "https://www.allianzhost.com/wp-content/themes/arkahost/assets/images/default.jpg",
-    "cDireccion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in nibh nec diam aliquam fringilla vel sit amet ligula.",
-    "cFechaAcsualizacion": "22/03/2020",
+   "cTitulo": "Listado empresas mas consutadas",
+    "cDireccion": "cDireccion Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in nibh nec diam aliquam fringilla vel sit amet ligula.",
+    "cEmail": "bluebook@iagrinet.com",
+    "cLogo": "",
+    "cTextoReporte": "texto",    
     
     "items": [
         {
-            "cTipo": "Comprador",
-            "cNombreEmpresa": "Triple H",
-            "cRfcTaxid": "ERS01923",
-            "cOrigen": "Nacional",
-            "cDomicilio": "Conocido",
-            "cTelefono": "0987654321",
-            "cCorreo": "demo@demo.com",
-            "cNumeroConsultas": "123"
+            "nIdUsuario":38,
+            "nTipo":2,
+            "cTipo":"Distribuidor-Comprador",
+            "cEmpresa":"Comercializadora del Valle",
+            "cRegistroIdentificador":"COVA456465456",
+            "nTipoEmpresa":1,
+            "cTipoEmpresa":"Nacional",
+            "cDireccionSucursalMatriz":"Culiacán, Sinaloa",
+            "cTelefonoOficinaMatriz":"6674569878",
+            "cEmail":"sheryl.natalie@gmail.com",
+            "cURLPaginaWebEmpresa":"",
+            "nPuntaje":0,
+            "nCantidadConsultas":11
         },
         {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
+            "nIdUsuario":7,
+            "nTipo":1,
+            "cTipo":"Productor-Comercializador",
+            "cEmpresa":"Prueba Sa de Cv",
+            "cRegistroIdentificador":"123456789",
+            "nTipoEmpresa":2,
+            "cTipoEmpresa":"Internacional",
+            "cDireccionSucursalMatriz":"culiacan sinaloa #600",
+            "cTelefonoOficinaMatriz":"6677889911",
+            "cEmail":"calidad@adsum.com.mx",
+            "cURLPaginaWebEmpresa":"IMELDA.COM.MX",
+            "nPuntaje":2,
+            "nCantidadConsultas":10
         },
         {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
-        },
-        {
-            "cTipo": "cTipo",
-            "cNombreEmpresa": "cNombreEmpresa",
-            "cRfcTaxid": "cRfcTaxid",
-            "cOrigen": "cOrigen",
-            "cDomicilio": "cDomicilio",
-            "cTelefono": "cTelefono",
-            "cCorreo": "cCorreo",
-            "cNumeroConsultas": "cNumeroConsultas"
+            "nIdUsuario":30,
+            "nTipo":1,
+            "cTipo":"Productor-Comercializador",
+            "cEmpresa":"La Esquinita",
+            "cRegistroIdentificador":"TCVA150389RCQ",
+            "nTipoEmpresa":1,
+            "cTipoEmpresa":"Nacional",
+            "cDireccionSucursalMatriz":"REy V #4291",
+            "cTelefonoOficinaMatriz":"6677290786",
+            "cEmail":"desarrolladorweb1@adsum.com.mx",
+            "cURLPaginaWebEmpresa":"empresa.com.mx",
+            "nPuntaje":0,
+            "nCantidadConsultas":8
         }
     ],
-    "cTotalConsultas": 12313
+    "nTotalConsultas": 29
 }

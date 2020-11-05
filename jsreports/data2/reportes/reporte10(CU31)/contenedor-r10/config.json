@@ -1,0 +1,28 @@
+{
+    "shortid": "EhzWKFtaQg",
+    "name": "contenedor-r10",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true,
+        "marginRight": "1cm",
+        "marginLeft": "1cm",
+        "marginTop": ""
+    },
+    "creationDate": {
+        "$$date": 1604521575897
+    },
+    "modificationDate": {
+        "$$date": 1604538283077
+    },
+    "_id": "U2zrNDsuUOtBzIvi",
+    "$entitySet": "templates",
+    "pdfOperations": [
+        {
+            "type": "merge"
+        }
+    ],
+    "entitySet": "templates",
+    "type": "entity",
+    "key": "U2zrNDsuUOtBzIvi"
+}

@@ -1,57 +1,78 @@
-<!-- Reporte 2 -->
+{{!-- Reporte 2 Excel--}}
+{{!-- 
+{{#xlsxReplace "xl/styles.xml"}}
+    {#asset styles.xml}}
+{{/xlsxReplace}} 
+--}}
 
-<html>
-    <head>
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <style>
-            {#asset reporte2-styles.css @encoding=utf8}
-        </style>
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-                {{!-- <img src="{{cLogo}}" /> --}}
-                <img src="{{cLogo}}" />
-            </div>
-            <div class="titulo-reporte">
-                <h1> {{cTitulo}} </h1>
-                <h2> {{cTituloFiltro}} </h2>
-                <p> {{cDireccion}} </p>
-            </div>
-            <div>
-                <!--  -->
-            </div>
-        </header>
 
-        <main>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>Tipo</th>
-                        <th>Nombre Empresa</th>
-                        <th>RFC/Taxid</th>
-                        <th>Origen</th>
-                        <th>Domicilio</th>
-                        <th>Teléfono</th>
-                        <th>Correo</th>
-                        <th>Sitio web</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {{#each items}}
-                    <tr>
-                        <td>{{ cTipo }}</td>
-                        <td>{{ cNombreEmpresa }}</td>
-                        <td>{{ cRfcTaxid }}</td>
-                        <td>{{ cOrigen }}</td>
-                        <td>{{ cDomicilio }}</td>
-                        <td>{{ cTelefono }}</td>
-                        <td>{{ cCorreo }}</td>
-                        <td>{{ cSitioWeb }}</td>
-                    </tr>
-                    {{/each}}
-                </tbody>
-            </table>
-        </main>
-    </body>
-</html>
+{{!-- Combinar celdas --}}
+{{#xlsxReplace "xl/worksheets/sheet1.xml" "worksheet.mergeCells"}}
+    <mergeCells>
+        <mergeCell ref="C1:H1"/>
+        <mergeCell ref="C2:H2"/>
+        <mergeCell ref="C3:H3"/>
+        <mergeCell ref="C4:H4"/>
+    </mergeCells>
+{{/xlsxReplace}}
+
+{{!-- Cabecera Reporte --}}
+{{#xlsxReplace "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row[1]"}}
+    <row>
+        <c r="C2" t="inlineStr"><is><t>Información actualizada al día {{now}}</t></is></c>
+    </row>
+{{/xlsxReplace}}
+
+{{#xlsxReplace "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row[2]"}}
+    <row>
+        <c r="C3" t="inlineStr"><is><t>{{cDireccion}}</t></is></c>
+    </row>
+{{/xlsxReplace}}
+
+{{#xlsxReplace "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row[3]"}}
+    <row>
+        <c r="C4" t="inlineStr"><is><t>{{cEmail}} </t></is></c>
+    </row>
+{{/xlsxReplace}}
+
+
+
+
+{{!-- Vacio  --}}
+{{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row"}}
+    <row> </row>
+{{/xlsxAdd}}
+
+
+{{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row"}}
+    <row>
+        <c t="inlineStr"><is><t>Tipo</t></is></c>
+        <c t="inlineStr"><is><t>Nombre Empresa</t></is></c>
+        <c t="inlineStr"><is><t>RFC/Taxid</t></is></c>
+        <c t="inlineStr"><is><t>Origen</t></is></c>
+        <c t="inlineStr"><is><t>Domicilio</t></is></c>
+        <c t="inlineStr"><is><t>Teléfono</t></is></c>
+        <c t="inlineStr"><is><t>Correo</t></is></c>
+        <c t="inlineStr"><is><t>Sitio web</t></is></c>
+    </row>
+{{/xlsxAdd}}
+
+{{!-- Items Reporte --}}
+{{#each socios}}
+    {{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row"}}
+        <row>
+            <c t="inlineStr"><is><t>{{ cTipo }}</t></is></c>
+            <c t="inlineStr"><is><t>{{ cEmpresa }}</t></is></c>
+            <c t="inlineStr"><is><t>{{ cRegistroIdentificador }}</t></is></c>
+            <c t="inlineStr"><is><t>{{ cTipoEmpresa }}</t></is></c>
+            <c t="inlineStr"><is><t>{{ cDireccionSucursalMatriz }}</t></is></c>
+            <c t="inlineStr"><is><t>{{ cTelefonoOficinaMatriz }}</t></is></c>
+            <c t="inlineStr"><is><t>{{ cEmail }}</t></is></c>
+            <c t="inlineStr"><is><t>{{ cURLPaginaWebEmpresa }}</t></is></c>
+
+        </row>
+    {{/xlsxAdd}}
+{{/each}}
+                   
+
+{{{xlsxPrint}}}

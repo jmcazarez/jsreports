@@ -1,0 +1,58 @@
+{{!-- Reporte 4 Excel --}}
+
+{{!-- Combinar celdas --}}
+{{#xlsxReplace "xl/worksheets/sheet1.xml" "worksheet.mergeCells"}}
+    <mergeCells>
+        <mergeCell ref="B1:G1"/>
+        <mergeCell ref="B2:G2"/>
+        <mergeCell ref="B3:G3"/>
+    </mergeCells>
+{{/xlsxReplace}}
+
+{{#xlsxReplace "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row[1]"}}
+    <row>
+        <c r="B2" t="inlineStr"><is><t>Información actualizada al día  {{now}} </t></is></c>
+    </row>
+{{/xlsxReplace}}
+
+{{#xlsxReplace "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row[2]"}}
+    <row>
+        <c r="B3" t="inlineStr"><is><t> {{cDireccion}} </t></is></c>
+    </row>
+{{/xlsxReplace}}
+
+{{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row"}}
+    <row>
+        <c t="inlineStr"><is><t>Tipo de Miembro</t></is></c>
+        <c t="inlineStr"><is><t>Nombre Empresa</t></is></c>
+        <c t="inlineStr"><is><t>RFC/Taxid</t></is></c>
+        <c t="inlineStr"><is><t>Origen</t></is></c>
+        <c t="inlineStr"><is><t>Domicilio</t></is></c>
+        <c t="inlineStr"><is><t>Teléfono</t></is></c>
+        <c t="inlineStr"><is><t>Correo</t></is></c>
+        <c t="inlineStr"><is><t>Url sitio web</t></is></c>
+    </row>
+{{/xlsxAdd}}
+
+{{!-- Vacio  --}}
+{{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row"}}
+    <row> </row>
+{{/xlsxAdd}}
+
+
+{{#each items}}
+{{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row"}}
+    <row>
+        <c t="inlineStr"><is><t>{{ this.cTipo }}</t></is></c>
+         <c t="inlineStr"><is><t>{{ this.cEmpresa }}</t></is></c>
+         <c t="inlineStr"><is><t>{{ this.cRegistroIdentificador }}</t></is></c>
+         <c t="inlineStr"><is><t>{{ this.cTipoEmpresa }}</t></is></c>
+         <c t="inlineStr"><is><t>{{ this.cDireccionSucursalMatriz }}</t></is></c>
+         <c t="inlineStr"><is><t>{{ this.cTelefonoOficinaMatriz }}</t></is></c>
+         <c t="inlineStr"><is><t>{{ this.cEmail }}</t></is></c>
+         <c t="inlineStr"><is><t>{{this.cURLPaginaWebEmpresa}}</t></is></c>
+    </row>
+{{/xlsxAdd}}
+{{/each}}
+
+{{{xlsxPrint}}}

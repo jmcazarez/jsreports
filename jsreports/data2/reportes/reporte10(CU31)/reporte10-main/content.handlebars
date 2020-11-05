@@ -1,0 +1,49 @@
+{{!-- Reporte 10 --}}
+
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <style>
+            {#asset reporte10-styles.css @encoding=utf8}
+        </style>
+    </head>
+    <body>
+        <main>
+            <div class="seccion-princial">
+                <div class="texto-principal">
+                    <h1> {{producto.cDescripcion}} </h1>
+                    <h3> Fecha de actualización: {{producto.dFechaActualizacion}}</h3>
+                    <p> {{producto.cTextoSeccionPrincipal}} </p>
+                </div>
+                <div class="img-principal">
+                    <img src="{{producto.cImagenProducto}}" />
+                </div>
+            </div>
+
+            <div class="seccion">
+                <div class="texto-principal">
+                    <h2> {{producto.cTituloPrimeraSeccion}} </h2>
+                    <img src="{{producto.cImagenDisponibilidad}}" />
+                    <p> {{producto.cTextoPrimeraSeccion}} </p>
+                </div>
+            </div>
+            
+            <div class="seccion">
+                <div class="texto-principal">
+                    <h2> {{producto.cTituloSegundaSeccion}} </h2>
+                    <img src="{{producto.cImagenGrado}}" />
+                    <p> {{producto.cTextoSegundaSeccion}} </p>
+                </div>
+            </div>
+
+            <div class="seccion">
+                <div class="texto-principal">
+                    <h2> {{producto.cTituloTerceraSeccion}} </h2>
+                    <img src="{{producto.cImagenGradoDos}}" />
+                    <p> {{producto.cTextoTerceraSeccion}} </p>
+                </div>
+            </div>
+
+        </main>
+    </body>
+</html>

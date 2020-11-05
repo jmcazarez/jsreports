@@ -1,23 +1,24 @@
 {
-    "shortid": "uN8Ev9lCSr",
+    "shortid": "VWI_6h0lVY",
     "name": "reporte1-main",
-    "recipe": "html-to-xlsx",
+    "recipe": "xlsx",
     "engine": "handlebars",
     "chrome": {
         "printBackground": true
     },
-    "htmlToXlsx": {
-        "htmlEngine": "chrome"
-    },
     "creationDate": {
-        "$$date": 1603851718072
+        "$$date": 1603936032189
     },
     "modificationDate": {
-        "$$date": 1603995073696
+        "$$date": 1604518378197
     },
-    "_id": "OOh8OwPt92aFSabM",
+    "_id": "tB9fx3nTlyp6QPfY",
     "$entitySet": "templates",
     "data": {
         "shortid": "aceSlqr_T5"
+    },
+    "xlsxTemplate": null,
+    "xlsx": {
+        "templateAssetShortid": "uxYNlWh"
     }
 }

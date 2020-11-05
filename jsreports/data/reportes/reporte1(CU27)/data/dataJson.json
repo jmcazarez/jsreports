@@ -1,0 +1,348 @@
+{
+    "membresias": [
+        {
+            "tipoMembresia": "basica",
+            "usuariosMembresia": [
+                {
+                    "tipoUsuario": "Productor-Comercializador",
+                    "usuarios": [
+                        {
+                            "nIdUsuario": 11,
+                            "nTipo": 1,
+                            "nTipoMembresia": 1,
+                            "nombre": "salomon sa de cv",
+                            "dFechaInscripcion": "2020-09-21T02:07:54.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 0,
+                            "dFechaVencimiento": "2021-08-00",
+                            "nDiasVencimiento": 0,
+                            "cFactura": ""
+                        },
+                        {
+                            "nIdUsuario": 23,
+                            "nTipo": 1,
+                            "nTipoMembresia": 1,
+                            "nombre": "Agrícola Bugambilias",
+                            "dFechaInscripcion": "2020-09-25T01:48:35.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 312,
+                            "dFechaVencimiento": "2021-08-04",
+                            "nDiasVencimiento": 275,
+                            "cFactura": ""
+                        },
+                        {
+                            "nIdUsuario": 28,
+                            "nTipo": 1,
+                            "nTipoMembresia": 1,
+                            "nombre": "prueba",
+                            "dFechaInscripcion": "2020-09-29T22:52:17.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 306,
+                            "dFechaVencimiento": "2021-08-02",
+                            "nDiasVencimiento": 273,
+                            "cFactura": ""
+                        },
+                        {
+                            "nIdUsuario": 33,
+                            "nTipo": 1,
+                            "nTipoMembresia": 1,
+                            "nombre": "Productos AMeNiR",
+                            "dFechaInscripcion": "2020-10-07T23:15:33.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 330,
+                            "dFechaVencimiento": "2021-09-03",
+                            "nDiasVencimiento": 305,
+                            "cFactura": ""
+                        },
+                        {
+                            "nIdUsuario": 34,
+                            "nTipo": 1,
+                            "nTipoMembresia": 1,
+                            "nombre": "Productos AMeNiR",
+                            "dFechaInscripcion": "2020-10-07T23:37:36.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 330,
+                            "dFechaVencimiento": "2021-09-03",
+                            "nDiasVencimiento": 305,
+                            "cFactura": ""
+                        },
+                        {
+                            "nIdUsuario": 35,
+                            "nTipo": 1,
+                            "nTipoMembresia": 1,
+                            "nombre": "im",
+                            "dFechaInscripcion": "2020-10-07T23:48:13.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 330,
+                            "dFechaVencimiento": "2021-09-03",
+                            "nDiasVencimiento": 305,
+                            "cFactura": ""
+                        },
+                        {
+                            "nIdUsuario": 36,
+                            "nTipo": 1,
+                            "nTipoMembresia": 1,
+                            "nombre": "Productos AMeNiR",
+                            "dFechaInscripcion": "2020-10-07T23:50:55.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 330,
+                            "dFechaVencimiento": "2021-09-03",
+                            "nDiasVencimiento": 305,
+                            "cFactura": ""
+                        },
+                        {
+                            "nIdUsuario": 39,
+                            "nTipo": 1,
+                            "nTipoMembresia": 1,
+                            "nombre": "IEIEIEIE",
+                            "dFechaInscripcion": "2020-10-09T17:17:24.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 330,
+                            "dFechaVencimiento": "2021-09-05",
+                            "nDiasVencimiento": 307,
+                            "cFactura": ""
+                        },
+                        {
+                            "nIdUsuario": 40,
+                            "nTipo": 1,
+                            "nTipoMembresia": 1,
+                            "nombre": "ime uyuyu",
+                            "dFechaInscripcion": "2020-10-09T17:42:33.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 330,
+                            "dFechaVencimiento": "2021-09-05",
+                            "nDiasVencimiento": 307,
+                            "cFactura": ""
+                        },
+                        {
+                            "nIdUsuario": 45,
+                            "nTipo": 1,
+                            "nTipoMembresia": 1,
+                            "nombre": "FAUCE",
+                            "dFechaInscripcion": "2020-10-16T23:13:37.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 323,
+                            "dFechaVencimiento": "2021-09-05",
+                            "nDiasVencimiento": 307,
+                            "cFactura": ""
+                        },
+                        {
+                            "nIdUsuario": 46,
+                            "nTipo": 1,
+                            "nTipoMembresia": 1,
+                            "nombre": "IME VIERNES 16 OCT",
+                            "dFechaInscripcion": "2020-10-16T23:35:01.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 323,
+                            "dFechaVencimiento": "2021-09-05",
+                            "nDiasVencimiento": 307,
+                            "cFactura": ""
+                        },
+                        {
+                            "nIdUsuario": 47,
+                            "nTipo": 1,
+                            "nTipoMembresia": 1,
+                            "nombre": "Productos AMeNiR",
+                            "dFechaInscripcion": "2020-10-20T19:45:35.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 316,
+                            "dFechaVencimiento": "2021-09-02",
+                            "nDiasVencimiento": 304,
+                            "cFactura": ""
+                        },
+                        {
+                            "nIdUsuario": 48,
+                            "nTipo": 1,
+                            "nTipoMembresia": 1,
+                            "nombre": "Productos AMeNiR",
+                            "dFechaInscripcion": "2020-10-20T23:40:42.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 316,
+                            "dFechaVencimiento": "2021-09-02",
+                            "nDiasVencimiento": 304,
+                            "cFactura": ""
+                        }
+                    ],
+                    "totalUsuarios": 13,
+                    "totalImporte": 0
+                },
+                {
+                    "tipoUsuario": "Distribuidor-Comprador",
+                    "usuarios": [
+                        {
+                            "nIdUsuario": 37,
+                            "nTipo": 2,
+                            "nTipoMembresia": 1,
+                            "nombre": "rererer",
+                            "dFechaInscripcion": "2020-10-07T23:57:28.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 330,
+                            "dFechaVencimiento": "2021-09-03",
+                            "nDiasVencimiento": 305,
+                            "cFactura": ""
+                        },
+                        {
+                            "nIdUsuario": 38,
+                            "nTipo": 2,
+                            "nTipoMembresia": 1,
+                            "nombre": "Comercializadora del Valle",
+                            "dFechaInscripcion": "2020-10-09T16:42:52.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 330,
+                            "dFechaVencimiento": "2021-09-05",
+                            "nDiasVencimiento": 307,
+                            "cFactura": ""
+                        }
+                    ],
+                    "totalUsuarios": 2,
+                    "totalImporte": 0
+                }
+            ],
+            "totalUsuarios": 15,
+            "totalImporte": 0
+        },
+        {
+            "tipoMembresia": "premium",
+            "usuariosMembresia": [
+                {
+                    "tipoUsuario": "Productor-Comercializador",
+                    "usuarios": [
+                        {
+                            "nIdUsuario": 7,
+                            "nTipo": 1,
+                            "nTipoMembresia": 2,
+                            "nombre": "Prueba Sa de Cv",
+                            "dFechaInscripcion": "2020-09-12T18:16:34.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 327,
+                            "dFechaVencimiento": "2021-08-06",
+                            "nDiasVencimiento": 277,
+                            "cFactura": ""
+                        },
+                        {
+                            "nIdUsuario": 9,
+                            "nTipo": 1,
+                            "nTipoMembresia": 2,
+                            "nombre": "Cedis Agricola Sa de CV",
+                            "dFechaInscripcion": "2020-09-20T23:25:27.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 0,
+                            "dFechaVencimiento": "2021-08-00",
+                            "nDiasVencimiento": 0,
+                            "cFactura": ""
+                        },
+                        {
+                            "nIdUsuario": 10,
+                            "nTipo": 1,
+                            "nTipoMembresia": 2,
+                            "nombre": "salomon sa de cv",
+                            "dFechaInscripcion": "2020-09-21T01:27:01.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 0,
+                            "dFechaVencimiento": "2021-08-00",
+                            "nDiasVencimiento": 0,
+                            "cFactura": ""
+                        },
+                        {
+                            "nIdUsuario": 27,
+                            "nTipo": 1,
+                            "nTipoMembresia": 2,
+                            "nombre": "lunes sa de cv",
+                            "dFechaInscripcion": "2020-09-28T20:31:51.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 306,
+                            "dFechaVencimiento": "2021-08-01",
+                            "nDiasVencimiento": 272,
+                            "cFactura": ""
+                        },
+                        {
+                            "nIdUsuario": 30,
+                            "nTipo": 1,
+                            "nTipoMembresia": 2,
+                            "nombre": "La Esquinita",
+                            "dFechaInscripcion": "2020-09-30T16:43:30.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 306,
+                            "dFechaVencimiento": "2021-08-03",
+                            "nDiasVencimiento": 274,
+                            "cFactura": ""
+                        },
+                        {
+                            "nIdUsuario": 42,
+                            "nTipo": 1,
+                            "nTipoMembresia": 2,
+                            "nombre": "Empresa JARP",
+                            "dFechaInscripcion": "2020-10-14T18:56:50.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 323,
+                            "dFechaVencimiento": "2021-09-03",
+                            "nDiasVencimiento": 305,
+                            "cFactura": ""
+                        },
+                        {
+                            "nIdUsuario": 43,
+                            "nTipo": 1,
+                            "nTipoMembresia": 2,
+                            "nombre": "Agrícola Persa",
+                            "dFechaInscripcion": "2020-10-14T19:02:00.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 323,
+                            "dFechaVencimiento": "2021-09-03",
+                            "nDiasVencimiento": 305,
+                            "cFactura": ""
+                        },
+                        {
+                            "nIdUsuario": 44,
+                            "nTipo": 1,
+                            "nTipoMembresia": 2,
+                            "nombre": "Agrícola Pandora",
+                            "dFechaInscripcion": "2020-10-14T19:06:42.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 323,
+                            "dFechaVencimiento": "2021-09-03",
+                            "nDiasVencimiento": 305,
+                            "cFactura": ""
+                        }
+                    ],
+                    "totalUsuarios": 8,
+                    "totalImporte": 0
+                },
+                {
+                    "tipoUsuario": "Distribuidor-Comprador",
+                    "usuarios": [
+                        {
+                            "nIdUsuario": 8,
+                            "nTipo": 2,
+                            "nTipoMembresia": 2,
+                            "nombre": "EMPRESITA",
+                            "dFechaInscripcion": "2020-09-20T23:15:49.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 0,
+                            "dFechaVencimiento": "2021-08-00",
+                            "nDiasVencimiento": 0,
+                            "cFactura": ""
+                        },
+                        {
+                            "nIdUsuario": 41,
+                            "nTipo": 2,
+                            "nTipoMembresia": 2,
+                            "nombre": "Comercializadora Ropoja",
+                            "dFechaInscripcion": "2020-10-13T23:05:37.000Z",
+                            "nPago": "0.00",
+                            "nDuracionMembresia": 323,
+                            "dFechaVencimiento": "2021-09-02",
+                            "nDiasVencimiento": 304,
+                            "cFactura": ""
+                        }
+                    ],
+                    "totalUsuarios": 2,
+                    "totalImporte": 0
+                }
+            ],
+            "totalUsuarios": 10,
+            "totalImporte": 0
+        }
+    ],
+    "totalUsuarios": 25,
+    "totalImporte": 0
+}
