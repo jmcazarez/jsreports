@@ -18,6 +18,15 @@ services:
             - ./jsreports/data2:/app/data
         networks:
             - bluebook_bluebook-net
+    jsreports3:
+        build: ./jsreports
+        container_name: jsreports3
+        ports:
+            - "5490:5488"
+        volumes:
+            - ./jsreports/data3:/app/data
+        networks:
+            - bluebook_bluebook-net
 networks:
     bluebook_bluebook-net:
         external: true 
