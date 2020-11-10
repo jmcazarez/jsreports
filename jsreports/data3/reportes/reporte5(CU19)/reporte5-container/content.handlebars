@@ -51,7 +51,7 @@
             </header>
             <footer class="footer">
               <div class="texto-footer">
-                <span>{{!-- -Texto reporte: --}} {{encabezado.cTextoReporte}}</span>
+                <span>{{@root.encabezado.cTextoReporte }}</span>
               </div>
               <div class="numero-pagina">
                 <span>Página {{getPageNumber @index}} de {{getTotalPages ../$pdf.pages}}</span>

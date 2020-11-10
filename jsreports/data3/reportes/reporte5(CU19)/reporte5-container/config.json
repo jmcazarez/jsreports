@@ -6,17 +6,17 @@
     "chrome": {
         "printBackground": true,
         "marginRight": "1cm",
-        "marginLeft": "1cm"
+        "marginLeft": "1cm",
+        "marginBottom": ""
     },
     "creationDate": {
         "$$date": 1604694812471
     },
     "modificationDate": {
-        "$$date": 1604956319924
+        "$$date": 1605021169784
     },
-    "data": {
-        "shortid": "9OlEIRgt9"
-    },
+    "data": null,
     "_id": "wISmLVtfvw4tTYQu",
-    "$entitySet": "templates"
+    "$entitySet": "templates",
+    "pdfOperations": []
 }

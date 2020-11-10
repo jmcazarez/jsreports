@@ -6,7 +6,7 @@
     "chrome": {
         "printBackground": true,
         "marginRight": "1cm",
-        "marginBottom": "1.1cm",
+        "marginBottom": "2cm",
         "marginLeft": "1cm",
         "marginTop": "1.1cm"
     },
@@ -14,14 +14,15 @@
         "$$date": 1604695037730
     },
     "modificationDate": {
-        "$$date": 1604969786316
+        "$$date": 1605021000627
     },
     "pdfOperations": [
         {
             "type": "merge",
             "templateShortid": "PVzWJHR5wO",
             "mergeWholeDocument": true,
-            "renderForEveryPage": false
+            "renderForEveryPage": false,
+            "mergeToFront": false
         }
     ],
     "data": {

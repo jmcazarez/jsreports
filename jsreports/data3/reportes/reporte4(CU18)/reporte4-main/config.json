@@ -6,7 +6,7 @@
     "chrome": {
         "printBackground": true,
         "marginRight": "1cm",
-        "marginBottom": "1.1cm",
+        "marginBottom": "2 cm",
         "marginLeft": "1cm",
         "marginTop": "1.1cm"
     },
@@ -14,7 +14,7 @@
         "$$date": 1604621897133
     },
     "modificationDate": {
-        "$$date": 1604969609473
+        "$$date": 1605020934226
     },
     "_id": "uQP0Q1j2BPPCNaQI",
     "$entitySet": "templates",

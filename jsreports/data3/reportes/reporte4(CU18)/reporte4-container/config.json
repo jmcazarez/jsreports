@@ -12,11 +12,9 @@
         "$$date": 1604622129667
     },
     "modificationDate": {
-        "$$date": 1604695163314
+        "$$date": 1605021179965
     },
     "_id": "69kdCmrr16bBcmC2",
     "$entitySet": "templates",
-    "data": {
-        "shortid": "BM5rhLu0hB"
-    }
+    "data": null
 }

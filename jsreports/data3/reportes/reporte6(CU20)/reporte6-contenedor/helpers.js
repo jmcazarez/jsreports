@@ -15,8 +15,3 @@ function getTotalPages (pages) {
     
     return pages.length
 }
-
-function cTextoReporte() {
-    
-    return this.encabezado.cTextoReporte
-}
