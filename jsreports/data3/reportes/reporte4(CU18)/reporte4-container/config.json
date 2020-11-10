@@ -1,0 +1,22 @@
+{
+    "shortid": "ANyUaRXFJc",
+    "name": "reporte4-container",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true,
+        "marginRight": "1cm",
+        "marginLeft": "1cm"
+    },
+    "creationDate": {
+        "$$date": 1604622129667
+    },
+    "modificationDate": {
+        "$$date": 1604695163314
+    },
+    "_id": "69kdCmrr16bBcmC2",
+    "$entitySet": "templates",
+    "data": {
+        "shortid": "BM5rhLu0hB"
+    }
+}

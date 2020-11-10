@@ -1,0 +1,100 @@
+{{!-- Reporte 5 pdf--}}
+
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <style>
+            {#asset ../../assets/font-awesome.css}
+
+            .fa {
+            font-family: 'FontAwesome2' !important; 
+            }
+
+            @font-face {
+            font-family: 'FontAwesome2';
+            src: url({#asset ../../assets/fontawesome-webfont.woff @encoding=dataURI});
+            format('woff');
+            }
+        </style>
+        <style>
+            {#asset reporte5-styles.css @encoding=utf8}
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="{{encabezado.cLogo}}" />
+            </div>
+            <div class="titulo-reporte">
+                <h1> {{encabezado.cTitulo}} </h1>
+                <p class="direccion">{{encabezado.cDireccion}} </p>
+                <p class="direccion">{{encabezado.cEmail}} </p>
+                <h3>  Información actualizada al día <strong>{{now}}</strong></h3>
+            </div>
+            <div>
+                <!--  -->
+            </div>
+        </header>
+
+        <main>
+            {{#each empresas}}
+             <div class="row-body">
+                <h3>Marca comercial</h3>
+                <div class="flex align-center header-bg">
+                    <div class="flex-2" >
+                        <img src='{{logo}}' />
+                    </div>
+                    <h4 class="text-center flex-4">
+                        {{datosGenerales.cEmpresa}}cEmpresa
+                    </h4>
+                    <span class="flex-2">
+                        <div class="puntaje">
+                            {{#ifRanking datosGenerales.nPuntaje 1}}
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            {{else}}
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            {{/ifRanking}}
+                            {{#ifRanking datosGenerales.nPuntaje 2}}
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            {{else}}
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            {{/ifRanking}}
+                            {{#ifRanking datosGenerales.nPuntaje 3}}
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            {{else}}
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            {{/ifRanking}}
+                            {{#ifRanking datosGenerales.nPuntaje 4}}
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            {{else}}
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            {{/ifRanking}}
+                        </div>
+                    </span>
+                </div>
+
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Variedad</th>
+                        <th>Calidad</th>
+                        <th class="text-center">Calibre</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        {{#each productos}}
+                        <tr>
+                            <td>{{ cDescripcion }}</td>
+                            <td>{{ cVariedad }}</td>
+                            <td>{{ cCalidad }}</td>
+                            <td class="text-center">{{ cCalibre }}</td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </div>
+            {{/each}}
+        </main>
+    </body>
+</html>

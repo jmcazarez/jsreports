@@ -1,0 +1,248 @@
+{{!-- Reporte 4 pdf--}}
+
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <style>
+            {#asset ../../assets/font-awesome.css}
+
+            .fa {
+            font-family: 'FontAwesome2' !important; 
+            }
+
+            @font-face {
+            font-family: 'FontAwesome2';
+            src: url({#asset ../../assets/fontawesome-webfont.woff @encoding=dataURI});
+            format('woff');
+            }
+        </style>
+
+        <style>
+            {#asset reporte4-styles.css @encoding=utf8}
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo" >
+                <img src="{{cLogoEmpresa}}" />
+                <p class="direccion">{{datosGenerales.cDireccionSucursalMatriz}}</p>
+            </div>
+            
+            <div class="titulo-reporte">
+                <h1> {{encabezado.cTitulo}} </h1>
+                <h2> {{datosGenerales.cEmpresa}} </h2>
+                
+                <div class="puntaje">
+                    {{#ifRanking datosGenerales.nEstrellas 1}}
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    {{else}}
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    {{/ifRanking}}
+                     {{#ifRanking datosGenerales.nEstrellas 2}}
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    {{else}}
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    {{/ifRanking}}
+                     {{#ifRanking datosGenerales.nEstrellas 3}}
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    {{else}}
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    {{/ifRanking}}
+                     {{#ifRanking datosGenerales.nEstrellas 4}}
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    {{else}}
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    {{/ifRanking}}
+                </div>
+                <h3>Información actualizada al día <strong>{{now}}</strong></h3>
+            </div>
+           <div class="logo">
+                <img src="{{encabezado.cLogo}}" />
+            </div>
+        </header>
+
+        <main>
+            <div class="row-body">
+                {{tipoUsuario}}
+                <h3>Marca comercial</h3>
+                <div class="flex align-center">
+                    <div class="flex-1" >
+                        <img src="{{cLogoEmpresa}}" />
+                    </div>
+                    <h4 class="text-center flex-4">
+                        {{datosGenerales.cEmpresa}}
+                    </h4>
+                    <span class="flex-1"> <!-- --> </span>
+                </div>
+            </div>
+
+            <div class="row-body">
+                
+                <h3>Datos generales de la empresa</h3>
+                <div class="row">
+                    <div class="flex">
+                        <div class="flex-6">
+                            <p> Tipo de empresa: {{datosGenerales.cTipo}}</p>
+                            <p>RFC o Taxid: {{datosGenerales.cRegistroIdentificador}} </p>
+                            <p>Desde cuando opera la empresa: {{datosGenerales.cTiempoOperacionempresa}}
+                            </p>
+                            <p>Número de empleados eventuales:
+                                {{datosGenerales.cCantidadEmpleadosEventuales}} </p>
+                            <p>Ubicación de la matriz: {{datosGenerales.cDireccionSucursalMatriz}}</p>
+                        </div>
+                        <div class="flex-6">
+                            <p>Teléfono de la oficina matriz: {{datosGenerales.cTelefonoOficinaMatriz}}
+                            </p>
+                            <p>Ubicación de la sucursal: {{datosGenerales.cDireccionSucursal}}</p>
+                            <p>Página web: {{datosGenerales.cURLPaginaWebEmpresa}}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <p><strong>Personas de contacto: </strong></p>
+                    {{#each contactos}}
+                    <div class="flex">
+                        <div class="flex-6">
+                            <p>Nombre: {{cNombreContacto}}</p>
+                            <p>Puesto: {{cPuesto}}</p>
+                        </div>
+                        <div class="flex-6">
+                            <p>Telefono: {{cTelefono}}</p>
+                            <p>Correo: {{cEmail}}</p>
+                        </div>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+
+            <div class="row-body">
+                <h3>Socios</h3>
+                {{#each socios}}
+                <div class="flex">
+                    <div class="flex-6">
+                        <p>Nombre: {{cNombreSocio}}</p>
+                        <p>Puesto: {{cPuestoSocio}}</p>
+                    </div>
+                    <div class="flex-6">
+                        <p>Teléfono: {{cTelefonoSocio}}</p>
+                        <p>Correo: {{cEmailSocio}}</p>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+
+             <div class="row-body">
+                <h3>Director general</h3>
+                <div class="flex">
+                    <div class="flex-6">
+                        <p>Nombre: {{datosGenerales.cNombreDirectorEmpresa}}</p>
+                        <p>correo: {{datosGenerales.cEmailDirectorEmpresa}}</p>
+                    </div>
+                    <div class="flex-6">
+                        <p>teléfono: {{datosGenerales.cTelefonoDirectorEmpresa}}</p>
+                        <p>Años en el cargo: {{datosGenerales.cAniosEnGargoDirectorEmpresa}}</p>
+                    </div>
+                </div>
+            </div>
+
+            {{#ifProd datosGenerales.nTipo}}
+                <div class="row-body">
+                    <h3>Productos</h3>
+                    {{#each productos}}
+                    <div class="flex">
+                        <div class="flex-6">
+                            <p>Producto: {{cDescripcion}}</p>
+                            <p>Variedad: {{cVariedad}}</p>
+                        </div>
+                        <div class="flex-6">
+                            <p>Sector: {{cSector}}</p>
+                            <p>Producción: {{cTipoProducccion}}</p>
+                            <p>Calidad: {{cCalidad}}</p>
+                            <p>Calibre: {{cCalibre}}</p>
+                        </div>
+                    </div>
+                    {{/each}}
+                </div>
+
+                <div class="row-body">
+                    <h3>Certificaciones</h3>
+                    {{#each certificaciones}}
+                    <div class="flex">
+                        <div class="flex-4">
+                            <p>Producto: {{cProducto}}</p>
+                        </div>
+                        <div class="flex-4">
+                            <p>Tipo de certificación: {{cTipoCertificacion}}</p>
+                        </div>
+                        <div class="flex-4">
+                            <p>Certificación: {{cCertificacion}}</p>
+                        </div>
+                    </div>
+                    {{/each}}
+                </div>
+
+                <div class="row-body">
+                    <h3>Exportaciones</h3>
+                    {{#each exportaciones}}
+                    <div class="flex">
+                        <div class="flex-6">
+                            <p>Producto: {{cProducto}}</p>
+                            <p>Variedad: {{cVariedad}}</p>
+                            <p>País: {{cVariedad}}</p>
+                        </div>
+                        <div class="flex-6">
+                            <p>Exporta desde hace: {{cTiempoExportando}}</p>
+                            <p>Porcentaje que exporta del total de producción : {{nPorcentajeExportacion}}</p>
+                        </div>
+                    </div>
+                    {{/each}}
+                </div>
+
+                <div class="row-body">
+                    <h3>Organizaciones</h3>
+                    {{#each organizaciones}}
+                    <div class="flex">
+                        <div class="flex-6">
+                            <p>Tipo de organización:{{ cTipoOrganizacion}} </p>
+                        </div>
+                        <div class="flex-6">
+                            <p>Desde cuando pertenece: {{cTiempoPertenencia}}</p>
+                        </div>
+                    </div>
+                    {{/each}}
+                </div>
+            {{else}}
+                <div class="row-body">
+                    <h3>Productos de interés</h3>
+                    {{#each productos}}
+                    <div>
+                        <p>Producto: {{producto.cDescripcion}}</p>
+                        <p>Variedad: {{producto.cVariedad}}</p>
+                        <p>Sector: {{producto.cSector}}</p>
+                        </div>
+                    {{/each}}
+                </div>
+
+                <div class="row-body">
+                    <h3>Certificaciones</h3>
+                    {{#each certificaciones}}
+                    <div>
+                        <p>Certificación: {{cDescripcionCertificacion}}</p>
+                    </div>
+                    {{/each}}
+                </div>
+            
+                <div class="row-body">
+                    <h3>Políticas de pago</h3>
+                    {{#each organizaciones}}
+                    <div class="col-xs-12">
+                        <p>Tiempo de pago: {{tPago.cTiempoPago}}</p>
+                    </div>
+                    {{/each}}
+                </div>
+            {{/ifProd}}
+
+        </main>
+    </body>
+</html>

@@ -1,0 +1,135 @@
+{{!-- Reporte 6 pdf--}}
+
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <style>
+            {#asset ../../assets/font-awesome.css}
+
+            .fa {
+            font-family: 'FontAwesome2' !important; 
+            }
+
+            @font-face {
+            font-family: 'FontAwesome2';
+            src: url({#asset ../../assets/fontawesome-webfont.woff @encoding=dataURI});
+            format('woff');
+            }
+        </style>
+        <style>
+            {#asset reporte6-styles.css @encoding=utf8}
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="{{encabezado.cLogo}}" />
+            </div>
+            <div class="titulo-reporte">
+                <h1> {{encabezado.cTitulo}} </h1>
+                 <div class="puntaje">
+                    {{#ifRanking nPuntaje 1}}
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    {{else}}
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    {{/ifRanking}}
+                    {{#ifRanking nPuntaje 2}}
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    {{else}}
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    {{/ifRanking}}
+                    {{#ifRanking nPuntaje 3}}
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    {{else}}
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    {{/ifRanking}}
+                    {{#ifRanking nPuntaje 4}}
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    {{else}}
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    {{/ifRanking}}
+                </div>
+                <p class="direccion">{{encabezado.cDireccion}} </p>
+                <p class="direccion">{{encabezado.cEmail}} </p>
+                <h3>  Información actualizada al día <strong>{{now}}</strong></h3>
+            </div>
+            <div>
+                <!--  -->
+            </div>
+        </header>
+
+        <main>
+            {{#each empresas}}
+             <div class="row-body">
+                <div class="flex align-center header-bg">
+                    <div class="flex-2" >
+                        <img src='{{logo}}' />
+                    </div>
+                    <h4 class="text-center flex-4">
+                        {{datosGenerales.cEmpresa}}
+                    </h4>
+                    <span class="flex-2">
+                        <div class="puntaje">
+                            {{#ifRanking datosGenerales.nEstrellas 1}}
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            {{else}}
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            {{/ifRanking}}
+                            {{#ifRanking datosGenerales.nEstrellas 2}}
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            {{else}}
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            {{/ifRanking}}
+                            {{#ifRanking datosGenerales.nEstrellas 3}}
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            {{else}}
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            {{/ifRanking}}
+                            {{#ifRanking datosGenerales.nEstrellas 4}}
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            {{else}}
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            {{/ifRanking}}
+                        </div>
+                    </span>
+                </div>
+
+                <table class="table">
+                    <tbody>
+                        <tbody>
+                            <tr>
+                                <td><strong>Domicilio: &nbsp;&nbsp; </strong>{{datosGenerales.cDireccionSucursalMatriz}}</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Correo electrónico: &nbsp;&nbsp; </strong> {{datosGenerales.cEmail}} </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Página web: &nbsp;&nbsp; </strong> {{datosGenerales.cURLPaginaWebEmpresa}}</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Teléfono: &nbsp;&nbsp; </strong> {{datosGenerales.cTelefonoOficinaMatriz}}</td>
+                            </tr>
+                            <tr>
+                                <td class="items-separados">
+                                    <strong class="mpa-0">Contacto: &nbsp;&nbsp; </strong>
+                                    {{#each contactos}}
+                                        <span class="item">
+                                            {{cNombreContacto }}
+                                            <span> , &nbsp;&nbsp; </span>
+                                        </span>
+                                    {{/each}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>Sucursal: &nbsp;&nbsp; </strong> {{datosGenerales.cDireccionSucursal}}
+                                </td>
+                            </tr>
+                        </tbody>
+                    </tbody>
+                </table>
+            </div>
+            {{/each}}
+        </main>
+    </body>
+</html>

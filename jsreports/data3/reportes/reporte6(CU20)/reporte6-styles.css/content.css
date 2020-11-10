@@ -1,0 +1,176 @@
+header {
+    display: flex;
+}
+
+header > div{
+    flex: 1;
+}
+
+header .logo img{
+    width: 100%;
+    max-height: 4cm;
+    object-fit: contain;
+    object-position: center;
+}
+
+header .direccion {
+    font-size: small;
+    text-align: center;
+}
+
+header .titulo-reporte{
+    flex:4;
+    text-align: center;
+}
+
+header .titulo-reporte h1{
+    font-size: 20px;
+
+}
+
+header .titulo-reporte h2{
+    font-size: 18px;
+    
+}
+
+header .titulo-reporte h3{
+    font-size: 16px;
+    font-weight: normal
+}
+
+.puntaje i{
+    margin: 0 0.2rem;
+    color: #D4AF37 
+}
+
+
+/* main */
+main {
+    width: 100%;
+    margin-top: 20px;
+}
+
+main h3{
+    line-height: 1;
+}
+
+main .row-body {
+    width: 100%;
+    border-radius: 4px;
+    padding-bottom: 20px;
+}
+
+main .row-body .header-bg {
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+/*
+main .row-body:first-of-type {
+    border-top: 1px solid red;
+}
+*/
+
+main .row-body h3 {
+    line-height: 2;
+    font-size: 18px;
+    letter-spacing: 0.88px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+main .row-body p {
+    padding: 0;
+    margin-bottom: 2px;
+}
+
+main .flex {
+    display: flex;
+}
+
+main .align-center {
+    align-items: center;
+}
+
+main .flex-wrap {
+    flex-wrap: wrap;
+}
+
+main .flex-1 {
+    flex: 1;
+}
+
+main .flex-2 {
+    flex: 2;
+}
+
+main .flex .flex-4:first-child {
+    padding-right: 2px;
+}
+
+main .flex .flex-4:first-child + .flex-4{
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+main .flex .flex-4:first-child + .flex-4 + .flex-4{
+    padding-right: 2px;
+}
+
+main .flex-4 {
+    flex: 4;
+}
+
+main .flex .flex-6:first-child {
+    padding-right: 5px;
+}
+
+main .flex .flex-6:first-child +.flex-6 {
+    padding-left: 5px;
+}
+
+main .flex-6 {
+    flex: 6;
+}
+
+main img {
+    max-width: 2cm;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+}
+
+main .text-center {
+    text-align: center;
+}
+
+main h4 {
+    font-size: 16px;
+}
+
+main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+main table td {
+    /* border-top: 1px solid rgba(0,0,0,0.1); */
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+main table p {
+   padding: 0;
+   margin: 0;
+}
+
+.mpa-0 {
+    margin: 0;
+    padding: 0;
+}
+
+.items-separados .item:last-of-type span{
+    display: none;
+}
+
+/* end - main */

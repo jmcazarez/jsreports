@@ -1,0 +1,22 @@
+{
+    "shortid": "VNhuInhmo7",
+    "name": "reporte6-contenedor",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true,
+        "marginRight": "1cm",
+        "marginLeft": "1cm"
+    },
+    "creationDate": {
+        "$$date": 1604955557586
+    },
+    "modificationDate": {
+        "$$date": 1604972329879
+    },
+    "_id": "WmarH9SvpeTSIHyb",
+    "$entitySet": "templates",
+    "data": {
+        "shortid": "EfNw4GJAqs"
+    }
+}

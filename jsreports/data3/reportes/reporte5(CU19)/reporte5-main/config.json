@@ -1,0 +1,32 @@
+{
+    "name": "reporte5-main",
+    "recipe": "chrome-pdf",
+    "shortid": "hIk3eo8AVt",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true,
+        "marginRight": "1cm",
+        "marginBottom": "1.1cm",
+        "marginLeft": "1cm",
+        "marginTop": "1.1cm"
+    },
+    "creationDate": {
+        "$$date": 1604695037730
+    },
+    "modificationDate": {
+        "$$date": 1604969786316
+    },
+    "pdfOperations": [
+        {
+            "type": "merge",
+            "templateShortid": "PVzWJHR5wO",
+            "mergeWholeDocument": true,
+            "renderForEveryPage": false
+        }
+    ],
+    "data": {
+        "shortid": "9OlEIRgt9"
+    },
+    "_id": "3g1tVy9M3hXjra6A",
+    "$entitySet": "templates"
+}

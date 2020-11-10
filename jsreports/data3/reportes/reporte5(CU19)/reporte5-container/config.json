@@ -1,0 +1,22 @@
+{
+    "name": "reporte5-container",
+    "recipe": "chrome-pdf",
+    "shortid": "PVzWJHR5wO",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true,
+        "marginRight": "1cm",
+        "marginLeft": "1cm"
+    },
+    "creationDate": {
+        "$$date": 1604694812471
+    },
+    "modificationDate": {
+        "$$date": 1604956319924
+    },
+    "data": {
+        "shortid": "9OlEIRgt9"
+    },
+    "_id": "wISmLVtfvw4tTYQu",
+    "$entitySet": "templates"
+}
