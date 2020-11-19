@@ -5,7 +5,7 @@
     "engine": "handlebars",
     "chrome": {
         "printBackground": true,
-        "marginTop": "1cm",
+        "marginTop": "2.5cm",
         "marginRight": "1cm",
         "marginBottom": "1.5cm",
         "marginLeft": "1cm"
@@ -22,7 +22,7 @@
         "$$date": 1604521668094
     },
     "modificationDate": {
-        "$$date": 1604669428058
+        "$$date": 1605749898834
     },
     "_id": "1LALbao7bHeCn9zT",
     "$entitySet": "templates",
