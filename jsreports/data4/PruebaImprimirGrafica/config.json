@@ -1,0 +1,21 @@
+{
+    "shortid": "CmI9vFMBoP",
+    "name": "PruebaImprimirGrafica",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true,
+        "marginTop": "1cm",
+        "marginRight": "1cm",
+        "marginBottom": "1cm",
+        "marginLeft": "1cm"
+    },
+    "creationDate": {
+        "$$date": 1609875441512
+    },
+    "modificationDate": {
+        "$$date": 1609876486179
+    },
+    "_id": "h2lE4jxkWquf8ge4",
+    "$entitySet": "templates"
+}
