@@ -33,17 +33,6 @@ services:
             - /etc/localtime:/etc/localtime:ro
         networks:
             - bluebook_bluebook-net
-    jsreports4:
-        build: ./jsreports
-        container_name: jsreports4
-        ports:
-            - "5491:5488"
-        volumes:
-            - ./jsreports/data4:/app/data
-            - /etc/timezone:/etc/timezone:ro
-            - /etc/localtime:/etc/localtime:ro
-        networks:
-            - bluebook_bluebook-net
 networks:
     bluebook_bluebook-net:
         external: true 
