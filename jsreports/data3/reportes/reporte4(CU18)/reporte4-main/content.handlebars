@@ -82,12 +82,17 @@
                 <div class="row">
                     <div class="flex">
                         <div class="flex-6">
-                            <p> Tipo de empresa: {{datosGenerales.cTipo}}</p>
+                            <p> Tipo de empresa: {{datosGenerales.cTipoEmpresa}}</p>
                             <p>RFC o Taxid: {{datosGenerales.cRegistroIdentificador}} </p>
                             <p>Desde cuando opera la empresa: {{datosGenerales.cTiempoOperacionempresa}}
                             </p>
-                            <p>Número de empleados eventuales:
-                                {{datosGenerales.cCantidadEmpleadosEventuales}} </p>
+
+                            {{#ifProd datosGenerales.nTipo}}
+                                <p>Número de empleados eventuales:
+                                    {{datosGenerales.cCantidadEmpleadosEventuales}} 
+                                </p>
+                            {{/ifProd}}
+
                             <p>Ubicación de la matriz: {{datosGenerales.cDireccionSucursalMatriz}}</p>
                         </div>
                         <div class="flex-6">
