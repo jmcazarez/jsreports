@@ -19,6 +19,23 @@
         <style>
             {#asset reporte6-styles.css @encoding=utf8}
         </style>
+
+         <style>
+            .center {
+            position: fixed;
+                top: 50%;
+                left: 50%;
+                margin-top: -150px;
+                margin-left: -150px;
+            }  
+
+            .center > img {
+                width: 300px;
+                height: 300px;
+                opacity: 0.3;
+            }
+        </style>
+
     </head>
     <body>
         <header>
@@ -131,5 +148,10 @@
             </div>
             {{/each}}
         </main>
+
+        <div class="center">
+            <img src="{{cWaterMark}}" />
+        </div>
+
     </body>
 </html>
